@@ -16,7 +16,6 @@ function App() {
     setQuestion(RandomQuestionGenerator())
   }
   return <QuestionBox
-    question={question.question}
     onClick={changeQuestionIndex}
   >
 

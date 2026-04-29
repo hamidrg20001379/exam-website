@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #cde819;
 }
 
 #root {
@@ -9,8 +9,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.app-container {
-  text-align: center;
 }

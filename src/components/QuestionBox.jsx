@@ -1,9 +1,10 @@
 
-
+import './QuestionBox.css'
+import QuestionText from './QuestionText'
 function QuestionBox(props) {
-    return <div key={props.key} id="question">
-        <p>{props.question}</p>
-        <button className="next-button" onClick={props.onClick}></button>
+    return <div key={props.key} id="question" className="question-box">
+        <QuestionText text={props.question}></QuestionText>
+        <button className="next-button" onClick={props.onClick}>next</button>
     </div>
 }
 
