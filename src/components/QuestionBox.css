@@ -27,3 +27,7 @@
 .next-button:hover {
     background-color: #4338ca;
 }
+
+.question-text-area{
+    height: 100px;
+}
