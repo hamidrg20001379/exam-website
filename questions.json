@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is the time complexity of binary search on a sorted array?",
+        "tags": [
+            "algorithms",
+            "search",
+            "computer science"
+        ],
+        "answer": "O(log n)",
+        "difficulty_level": "easy"
+    },
+    {
+        "question": "What does the Python 'list comprehension' feature primarily help with?",
+        "tags": [
+            "python",
+            "programming",
+            "syntax"
+        ],
+        "answer": "It provides a concise way to create lists by iterating over an iterable and optionally applying a condition or transformation in a single line.",
+        "difficulty_level": "medium"
+    },
+    {
+        "question": "Explain what overfitting means in machine learning.",
+        "tags": [
+            "machine learning",
+            "model training",
+            "statistics"
+        ],
+        "answer": "Overfitting occurs when a model learns the training data too closely, capturing noise and specific patterns that do not generalize well to unseen data, resulting in poor performance on new datasets.",
+        "difficulty_level": "medium"
+    }
+]
