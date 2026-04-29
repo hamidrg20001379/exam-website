@@ -3,12 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
@@ -25,5 +19,12 @@
     "globals": "^17.5.0",
     "vite": "^8.0.10"
   },
-  "homepage": "https://yourusername.github.io/yourrepo"
+  "homepage": "https://hamidrg20001379.github.io/exam-website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
 }
