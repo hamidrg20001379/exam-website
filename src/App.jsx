@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import QuestionBox from "./components/QuestionBox";
-import { supabase } from "./utils/supabase";
+import { supabase } from "./lib/supabase";
 
 function App() {
   const [questions, setQuestions] = useState([]);
